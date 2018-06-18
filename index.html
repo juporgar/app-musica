@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title></title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8">
+            <input type="text" class="form-control input" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+            <button type="button" class="btn btn-outline-success" onclick="miFunc()">Success</button>
+            <div class="music">
+
+            </div>
+        </div>
+        <div class="col-4">
+            <section class="musica" ondragover="onDragOver(event)" onDrop="onDrop(event)">
+
+            </section>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.0.js"></script>
+    <script src="./assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
